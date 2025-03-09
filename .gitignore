@@ -1,0 +1,25 @@
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Node modules if you're using any Node.js tools
+node_modules/
+
+# Build output
+dist/
+build/
+out/
+
+# Logs
+*.log 
