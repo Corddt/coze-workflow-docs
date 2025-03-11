@@ -157,6 +157,7 @@ async function main({ params }) {
 返回格式必须是严格的JSON格式，包含name(世界名称)、age(当前年代)、month(当前月份)、day(当前日期)、realms(修炼境界数组)和major_events(重大事件数组)字段。其中realms数组的每个元素包含name(境界名称)、description(境界描述)和lifespan(该境界寿命)字段；major_events数组的每个元素包含name(事件名称)、description(事件描述)和date(事件日期对象，包含year、month、day字段)。
 ```
 
+
 ### 5. 数据库节点：加载游戏
 
 **内容**：从数据库中加载已保存的游戏状态
